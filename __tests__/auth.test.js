@@ -1,8 +1,8 @@
-const request = require("supertest");
-const bcrypt = require("bcrypt");
-const app = require("../app.js");
-const fs = require("fs");
-const path = require("path");
+import request from "supertest";
+import bcrypt from "bcrypt";
+import fs from "fs";
+import path from "path";
+import app from "../app.js";
 
 describe("POST /register", () => {
   let user;
